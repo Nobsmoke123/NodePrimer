@@ -2,9 +2,10 @@
   "name": "taskmanager",
   "version": "1.0.0",
   "description": "The backend for the task manager.",
-  "main": "node-server.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node backend/app.js",
+    "backend": "nodemon backend/app.js"
   },
   "keywords": [],
   "author": "",
