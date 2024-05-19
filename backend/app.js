@@ -23,7 +23,7 @@ const PORT = process.env.BACKEND_SERVER_PORT || 5000;
 
 const startServer = async () => {
   try {
-    // Connect to the database
+     // Connect to the database
     await connectDB();
 
     // start listening for requests
